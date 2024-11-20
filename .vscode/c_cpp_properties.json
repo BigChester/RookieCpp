@@ -20,6 +20,20 @@
             "intelliSenseMode": "windows-gcc-x64",
             "compilerPath": "D:/Program Files/mingw64/bin/g++.exe",
             "cStandard": "c23"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "macos-gcc-x64"
         }
     ],
     "version": 4
