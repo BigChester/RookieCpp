@@ -19,7 +19,7 @@ int main(void)  {
 
 template <typename elemType>
 static void displayMsg(const string &msg,
-                const vector<elemType> &vec) {
+                       const vector<elemType> &vec) {
     cout << msg;
     for (size_t i = 0; i < vec.size(); i++) {
         elemType t = vec[i];

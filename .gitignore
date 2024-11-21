@@ -35,3 +35,6 @@ Build/
 
 # Mac Files
 *.DS_Store
+
+# Configuration Files
+.vscode/
