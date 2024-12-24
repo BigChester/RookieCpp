@@ -2,6 +2,7 @@
 #include "Stack.h"
 using namespace std;
 
+#ifdef PRACTICE4_1
 int main(void) {
     size_t capacity = 10;
     Stack stack(capacity);
@@ -93,3 +94,4 @@ int main(void) {
 
     return 0;
 }
+#endif

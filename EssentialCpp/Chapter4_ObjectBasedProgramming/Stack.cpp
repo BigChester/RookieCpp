@@ -1,3 +1,4 @@
+#include <algorithm>
 #include "Stack.h"
 
 inline bool
@@ -39,4 +40,15 @@ Stack::peek(string &elem) {
 
     elem = _stack.back();
     return true;
+}
+
+bool
+Stack::find(const string &elem) {
+    vector<string>::iterator end_it = _stack.end();
+    return std::find(_stack.begin(), end_it, elem) != end_it;
+}
+
+size_t
+Stack::count(const string &elem) {
+    return ::count(_stack.begin(), _stack.end(), elem);
 }

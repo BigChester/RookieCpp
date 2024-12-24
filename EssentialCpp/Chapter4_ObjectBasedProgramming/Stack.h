@@ -1,5 +1,5 @@
-#ifndef __STACK_H
-#define __STACK_H
+#ifndef __STACK_H__
+#define __STACK_H__
 
 #include <string>
 #include <vector>
@@ -16,6 +16,8 @@ class Stack {
         bool peek(string &elem);
         bool empty();
         bool full();
+        bool find(const string &elem);
+        size_t count(const string &elem);
 };
 
 #endif
