@@ -2,12 +2,12 @@
 #include "Stack.h"
 
 inline bool
-Stack::empty() {
+Stack::empty() const {
     return _stack.empty();
 }
 
 inline bool
-Stack::full() {
+Stack::full() const {
     return (_stack.size() >= _maxSize);
 }
 
@@ -33,7 +33,7 @@ Stack::push(const string &elem) {
 }
 
 bool
-Stack::peek(string &elem) {
+Stack::peek(string &elem) const {
     if (empty()) {
         return false;
     }
@@ -49,6 +49,6 @@ Stack::find(const string &elem) {
 }
 
 size_t
-Stack::count(const string &elem) {
+Stack::count(const string &elem) const {
     return ::count(_stack.begin(), _stack.end(), elem);
 }

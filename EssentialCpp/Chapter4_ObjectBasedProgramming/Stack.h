@@ -5,6 +5,9 @@
 #include <vector>
 using namespace std;
 
+// #define PRACTICE4_1
+// #define PRACTICE4_2
+
 class Stack {
     private:
         vector<string> _stack;
@@ -13,11 +16,11 @@ class Stack {
         Stack(size_t maxSize): _maxSize(maxSize) {}
         bool push(const string &);
         bool pop(string &elem);
-        bool peek(string &elem);
-        bool empty();
-        bool full();
+        bool peek(string &elem) const;
+        bool empty() const;
+        bool full() const;
         bool find(const string &elem);
-        size_t count(const string &elem);
+        size_t count(const string &elem) const;
 };
 
 #endif
