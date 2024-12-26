@@ -9,7 +9,7 @@ class LIFO_Stack : public Stack {
     public:
         bool push(int);
         bool pop(int &);
-        int peek(int index) const;
+        int peek(int index) const { return -1; }
         ostream& print(ostream &os = cout) const;
 };
 

@@ -10,6 +10,9 @@ int main() {
     cout << stack.peek(1) << endl;  
     cout << stack.peek(2) << endl;
     cout << stack.peek(3) << endl;
+    int value;
+    stack.pop(value);
+    cout << value << endl;
     stack.print();
     return 0;
 }

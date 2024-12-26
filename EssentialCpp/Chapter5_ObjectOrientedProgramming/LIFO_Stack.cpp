@@ -18,12 +18,6 @@ bool LIFO_Stack::pop(int &value) {
     return true;
 }
 
-int LIFO_Stack::peek(int index) const {
-    if (index < 0 || index >= _top)
-        return 0;
-    return _stack[_top - index - 1];
-}
-
 ostream& LIFO_Stack::print(ostream &os) const {
     os << "LIFO_Stack: ";
     for (int i = 0; i < _top; ++i)
