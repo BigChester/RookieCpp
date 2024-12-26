@@ -3,7 +3,7 @@
 
 #include "Stack.h"
 
-#define PRACTICE_5_1_LIFO_STACK_TEST
+// #define PRACTICE_5_1_LIFO_STACK_TEST
 
 class LIFO_Stack : public Stack {
     public:
