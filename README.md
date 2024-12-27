@@ -2,6 +2,11 @@
 
 This is a repo for C++ learning...
 
+## Prject Architecture
+
+- Essential C++ (Partly)
+- Effective C++ (Continuously)
+
 ## Install Compiler Environment on Windows x64
 
 ### Steps
