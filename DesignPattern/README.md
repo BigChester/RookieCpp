@@ -1,6 +1,12 @@
 # Design Pattern
 
 - [SingleFactory](SingleFactory)
+- [Strategy](Strategy)
+- [Decorator](Decorator)
+
+## Decorator
+
+![Decorator](.fig/Decorator.png)
 
 ## Reference
 
