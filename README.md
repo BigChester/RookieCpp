@@ -6,6 +6,7 @@ This is a repo for C++ learning...
 
 - Essential C++ (Partly)
 - Effective C++ (Continuously)
+- Design Pattern (Continuously)
 
 ## Install Compiler Environment on Windows x64
 
