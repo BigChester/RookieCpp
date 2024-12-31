@@ -4,10 +4,9 @@
 - [**Strategy**](Strategy)
 - [**Decorator**](Decorator)
 - [**Proxy**](Proxy)
+- [**Factory Method**](FactoryMethod)
 
 ## 1. Simple Factory
-
-> 定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到子类。
 
 ![Simple Factory Pattern UML](.fig/SimpleFactory.png)
 
@@ -28,6 +27,12 @@
 > 为其他对象提供一种代理以控制对这个对象的访问。
 
 ![Proxy Pattern UML](.fig/Proxy.png)
+
+## 5. Factory Method
+
+> 定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到子类。
+
+![Factory Method Pattern UML](.fig/FactoryMethod.png)
 
 ## Reference
 
