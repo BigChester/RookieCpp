@@ -5,7 +5,8 @@
 - [**Decorator**](Decorator)
 - [**Proxy**](Proxy)
 - [**Factory Method**](FactoryMethod)
-
+- [**Prototype**](Prototype)
+  
 ## 1. Simple Factory
 
 ![Simple Factory Pattern UML](.fig/SimpleFactory.png)
@@ -33,6 +34,12 @@
 > 定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到子类。
 
 ![Factory Method Pattern UML](.fig/FactoryMethod.png)
+
+## 6. Prototype
+
+> 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
+
+![Prototype Pattern UML](.fig/Prototype.png)
 
 ## Reference
 
