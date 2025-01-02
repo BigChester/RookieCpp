@@ -2,11 +2,17 @@
 
 This is a repo for C++ learning...
 
-## Prject Architecture
+## Project Architecture
 
-- Essential C++ (Partly)
-- Effective C++ (Continuously)
-- Design Pattern (Continuously)
+- [Essential C++ (Partly)](./EssentialCpp/)
+- [Effective C++ (Continuously)](./EffectiveCpp/)
+- [Design Pattern (Continuously)](./DesignPattern/)
+- [Data Structure (Continuously)](./DataStructure/)
+
+## Data Structure
+
+- [Tree (树)](./DataStructure/Tree/TreeNode.h)
+- [Segment Tree (线段树)](./DataStructure/SegmentTree/SegmentTree.h)
 
 ## Install Compiler Environment on Windows x64
 
