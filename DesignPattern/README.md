@@ -7,6 +7,7 @@
 - [**Factory Method**](FactoryMethod)
 - [**Prototype**](Prototype)
 - [**Facade**](Facade)
+- [**Builder**](Builder)
 
 ## 1. Simple Factory
 
@@ -47,6 +48,12 @@
 > 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
 
 ![Facade Pattern UML](.fig/Facade.png)
+
+## 8. Builder
+
+> 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
+
+![Builder Pattern UML](.fig/Builder.png)
 
 ## Reference
 
