@@ -6,7 +6,8 @@
 - [**Proxy**](Proxy)
 - [**Factory Method**](FactoryMethod)
 - [**Prototype**](Prototype)
-  
+- [**Facade**](Facade)
+
 ## 1. Simple Factory
 
 ![Simple Factory Pattern UML](.fig/SimpleFactory.png)
@@ -40,6 +41,12 @@
 > 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
 
 ![Prototype Pattern UML](.fig/Prototype.png)
+
+## 7. Facade
+
+> 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
+
+![Facade Pattern UML](.fig/Facade.png)
 
 ## Reference
 
