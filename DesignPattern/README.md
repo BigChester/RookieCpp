@@ -8,7 +8,8 @@
 - [**Prototype**](Prototype)
 - [**Facade**](Facade)
 - [**Builder**](Builder)
-
+- [**Observer**](Observer)
+  
 ## 1. Simple Factory
 
 ![Simple Factory Pattern UML](.fig/SimpleFactory.png)
@@ -54,6 +55,12 @@
 > 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
 
 ![Builder Pattern UML](.fig/Builder.png)
+
+## 9. Observer
+
+> 定义对象间的一对多依赖关系，当一个对象改变状态时，所有依赖于它的对象都会得到通知并自动更新。
+
+![Observer Pattern UML](.fig/Observer.png)
 
 ## Reference
 
