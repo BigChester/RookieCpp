@@ -9,6 +9,7 @@
 - [**Facade**](Facade)
 - [**Builder**](Builder)
 - [**Observer**](Observer)
+- [**Abstract Factory**](AbstractFactory)
   
 ## 1. Simple Factory
 
@@ -61,6 +62,12 @@
 > 定义对象间的一对多依赖关系，当一个对象改变状态时，所有依赖于它的对象都会得到通知并自动更新。
 
 ![Observer Pattern UML](.fig/Observer.png)
+
+## 10. Abstract Factory
+
+> 提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。
+
+![Abstract Factory Pattern UML](.fig/AbstractFactory.png)
 
 ## Reference
 
