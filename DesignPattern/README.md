@@ -10,6 +10,7 @@
 - [**Builder**](Builder)
 - [**Observer**](Observer)
 - [**Abstract Factory**](AbstractFactory)
+- [**State**](State)
   
 ## 1. Simple Factory
 
@@ -68,6 +69,12 @@
 > 提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。
 
 ![Abstract Factory Pattern UML](.fig/AbstractFactory.png)
+
+## 11. State
+
+> 允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它的类。
+
+![State Pattern UML](.fig/State.png)
 
 ## Reference
 
