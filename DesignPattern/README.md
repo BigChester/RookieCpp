@@ -11,7 +11,8 @@
 - [**Observer**](Observer)
 - [**Abstract Factory**](AbstractFactory)
 - [**State**](State)
-  
+- [**Adapter**](Adapter)
+
 ## 1. Simple Factory
 
 ![Simple Factory Pattern UML](.fig/SimpleFactory.png)
@@ -75,6 +76,12 @@
 > 允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它的类。
 
 ![State Pattern UML](.fig/State.png)
+
+## 12. Adapter
+
+> 将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
+
+![Adapter Pattern UML](.fig/Adapter.png)
 
 ## Reference
 
