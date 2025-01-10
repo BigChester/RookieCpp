@@ -14,6 +14,16 @@
 - [**Adapter**](Adapter)
 - [**Memento**](Memento)
 
+## Principles
+
+- **单一职责原则**（Single Responsibility Principle）: 一个类只负责一项职责。
+- **开闭原则**（Open/Closed Principle）: 对扩展开放，对修改关闭。
+- **里氏替换原则**（Liskov Substitution Principle）: 子类可以替换父类。
+- **依赖倒置原则**（Dependency Inversion Principle）: 高层模块不应该依赖低层模块，两者都应该依赖抽象。
+- **接口隔离原则**（Interface Segregation Principle）: 客户端不应该依赖它不需要的接口。
+- **迪米特法则**（Law of Demeter）: 一个对象应该对其他对象有最少的了解。
+- **合成复用原则**（Composite Reuse Principle）: 尽量使用合成/聚合的方式，而不是使用继承。
+
 ## 1. Simple Factory
 
 ![Simple Factory Pattern UML](.fig/SimpleFactory.png)
