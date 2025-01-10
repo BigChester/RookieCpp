@@ -12,6 +12,7 @@
 - [**Abstract Factory**](AbstractFactory)
 - [**State**](State)
 - [**Adapter**](Adapter)
+- [**Memento**](Memento)
 
 ## 1. Simple Factory
 
@@ -82,6 +83,12 @@
 > 将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
 ![Adapter Pattern UML](.fig/Adapter.png)
+
+## 13. Memento
+
+> 在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到原先保存的状态。
+
+![Memento Pattern UML](.fig/Memento.png)
 
 ## Reference
 
